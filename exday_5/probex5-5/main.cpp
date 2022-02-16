@@ -8,8 +8,8 @@ int main(){
     queue<string> q;
     while(true){
         cout<<"文字列を入力:";
-        cin>>input;
-        if(input=="abc"){
+        getline(cin,input);
+        if(input=="\0"){
             break;
         }else{
         q.push(input);
