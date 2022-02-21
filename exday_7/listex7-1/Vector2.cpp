@@ -1,4 +1,4 @@
-#include "vector2.h"
+#include "Vector2.h"
  
 //  +演算子のオーバーロード
 Vector2 operator+(const Vector2& v1,const Vector2& v2)

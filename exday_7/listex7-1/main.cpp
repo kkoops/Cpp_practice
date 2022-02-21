@@ -1,5 +1,5 @@
 #include <iostream>
-#include "vector2.h"
+#include "Vector2.h"
  
 using namespace std;
  
@@ -14,7 +14,7 @@ int main(){
     v3 = 4.0 * v1;      //  ベクトルのスカラー倍
     vec("v1=", v1);
     vec("v2=", v2);
-    vec("v1 + v2=", v1 + v2);
+    //vec("v1 + v2=", v1+v2);
     vec("v3=", v3);
     v3 += v1;           //  代入演算子（+=）
     vec("v3=",v3);
